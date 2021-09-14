@@ -1,0 +1,21 @@
+<div fxLayout="column" fxLayoutAlign="space-between center">
+
+  <p class="top-text">Votre connection a été réussie. Votre mot de passe vous a été envoyé par mail</p>
+
+  <form action="" method="get" class="inscription-form" fxLayout="column" fxLayoutGap="20px">
+
+    <div class="inscription-form">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="inscription-form">
+      <label for="mdp">Mot de passe</label>
+      <input type="text" name="mdp" id="mdp" required>
+    </div>
+
+    <div class="inscription-form">
+          <input type="submit" value="Valider" (click)="submit()">
+    </div>
+  </form>
+</div>

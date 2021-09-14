@@ -1,0 +1,46 @@
+<button routerLink="/cards" routerLinkActive="active">Retour</button>
+
+<form action="" method="get" class="inscription-form"
+      fxLayout="column" fxLayoutAlign="space-between center" fxLayoutGap="15px">
+
+  <div class="inscription-form">
+    <label for="nomCarte">Nom</label>
+    <input type="text" name="nomCarte" id="nomCarte" required>
+  </div>
+
+  <div class="inscription-form">
+    <label for="typeCarte">Type de carte</label>
+    <input type="text" name="typeCarte" id="typeCarte" required>
+  </div>
+
+  <div class="inscription-form">
+    <label for="nCarte">N° de carte</label>
+    <input type="text" name="nCarte" id="nCarte" required>
+  </div>
+
+  <div class="inscription-form">
+    <label for="proprietaire">Propriétaire</label>
+    <input type="text" name="proprietaire" id="proprietaire" required>
+  </div>
+
+  <div fxLayout="row" fxLayoutGap="15px">
+    <div class="inscription-form">
+      <label for="mm">MM</label>
+      <input type="number" name="mm" id="mm" required>
+    </div>
+
+    <div class="inscription-form">
+      <label for="aaaa">AAAA</label>
+      <input type="number" name="aaaa" id="aaaa" required>
+    </div>
+  </div>
+
+  <div class="inscription-form">
+    <label for="pin">Propriétaire</label>
+    <input type="number" name="pin" id="pin" required>
+  </div>
+
+
+</form>
+
+<button routerLink="/cards" routerLinkActive="active">Enregistrer</button>
